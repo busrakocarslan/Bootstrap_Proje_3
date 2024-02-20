@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.347) !important;
+}
+
+.Jumbatron{
+    height: 100vh;
+    background-image: url(./img/laptop-5673901_1280.jpg);
+    background-size: cover;
+    color: #FFBD00;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 3rem;
+
+
+}
+.Jumbatron img{
+    width: 100%;
+}
+.head button{
+    background-color: #EC00DD!important;
+    color: #0000DC ;
+    border: none;
+
+}
+.head button:hover{
+    color:#FFBD00
+}
+section#services .card i{
+    width: 150px !important;
+    height: 150px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .col .card i{
+    width: 150px !important;
+    height: 150px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+} */
+section#services .card{
+    border: none;
+}
+/*section#services i{
+    width: 50px;
+} */
+section#team img{
+    border-radius: 50%;
+    border: 10px solid rgba(128, 128, 128, 0.236);
+    transition: all 1s;
+}
+section#team img:hover{
+    transform: scale(1.1);
+}
+section#team .card{
+    border: none;
+}
+section#team i{
+    transition: all 0.3s;
+    /* background-color: black; */
+    /* color: white; */
+    
+
+}
+section#team i:hover{
+    opacity: 0.5;
+
+}
+section#contact{
+    background-image: url(./img/phone-499991_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section#contact input{
+    background-color: inherit;
+    color:black;
+    border: 1px solid black;
+}
+section#contact input:focus{
+    box-shadow: 2px 1px 1px black;
+    cursor:text;
+    
+}
